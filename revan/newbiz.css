@@ -1,0 +1,778 @@
+* {
+	margin:0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.dropdown-menu {
+	padding-left: 3em;
+}
+
+#intro {
+	width: 100%;
+	float: left;
+	position: relative;
+	background: url(https://bootstrapmade.com/demo/themes/NewBiz/img/intro-bg.png);
+	border-radius: 1em;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 200px 0 120px 0;
+}
+
+#intro h2 {
+	font-family: 'Montserrat', sans-serif;
+	color:white;
+	font-size: 48px;
+	font-weight: 700;
+}
+
+#intro h2 span {
+	color:#74b5fc;
+	text-decoration: underline;
+}
+
+
+.intro1 {
+	width: 50%;
+}
+
+/*#header-buttons button{
+  	border: none;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+}
+*/
+#header-buttons .button1 {
+	border-radius: 2em;
+	border:2px solid #007bff;
+	background: #007bff;
+	width: 10em;
+	height: 3em;
+	text-align: center;
+	text-decoration: none;
+	color:white;
+	display: inline-block;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 15px;
+	transition: 1s;
+}
+
+#header-buttons .button2 {
+	border-radius: 2em;
+	border:2px solid white;
+	background: none;
+	width: 10em;
+	height: 3em;
+	text-align: center;
+	text-decoration: none;
+	color:white;
+	margin: 0 0 0 2em;
+	display: inline-block;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	transition: 1s;
+	font-size: 15px;
+}
+
+#header-buttons .button2:hover{
+	border:2px solid #007bff;
+	background: #007bff;
+	transition: 0.3s;
+}
+
+#header-buttons .button1:hover{
+	border:2px solid white;
+	background: none;
+	transition: 0.3s;
+}
+
+#header-buttons {
+	padding-top: 4em;
+}
+
+#main-content {
+	padding: 60px 0;
+	height: 10px;
+	position: absolute;
+	margin-top: 45em;
+	width: 100%;
+}
+
+#aboutus1 {
+	text-align: center;
+	padding-left: 10em;
+}
+
+#aboutus1 h3{
+	font-family: "Montserrat", sans-serif;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 500;
+	margin-top: 0;
+	margin-bottom: 25px;
+}
+
+
+#aboutus1 p{
+	text-align: center;
+	width: 50%;
+	margin:auto;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	padding-bottom: 50px;
+	color:#74b5fc;
+}
+
+#aboutus2 {
+	padding-left: 2em;
+}
+
+#aboutus2 p{
+	line-height: 26px;
+	color:#74b5fc;
+	padding-left: 4.5em;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+#aboutus2 .icon1 .icon i{
+	color:#007bff;
+	font-size: 2em;
+	padding-top: 13px;
+}
+
+.icon {
+	border:2px solid #007bff;
+	width:65px;
+	height: 65px;
+	border-radius: 50%;
+	margin:0px;
+	padding-right: 0px;
+	text-align: center;
+	align-items: center;
+	float: left;
+	margin-top: 1em;
+}
+
+#aboutus2 .icon1 {
+	padding-left: 4.5em;
+	padding-top: 1em;
+}
+
+#aboutus2 .content {
+	padding-left: 1em;
+}
+
+#aboutus2 .content .title {
+	padding-left: 4em;
+}
+
+#aboutus2 .content p{
+	padding-left: 5em;
+} 
+
+#aboutus2 .icon2 .icon i{
+	color:#007bff;
+	font-size: 2em;
+	padding-top: 16px;
+}
+
+
+#aboutus2 .icon2 {
+	padding-left: 4.5em;
+	padding-top: 1em;
+}
+
+#aboutus2 .icon3 .icon i{
+	color:#007bff;
+	font-size: 2em;
+	padding-top: 16px;
+
+}
+
+
+#aboutus2 .icon3 {
+	padding-left: 4.5em;
+	padding-top: 1em;
+}
+
+#aboutus2 img{
+	margin-top: 23px;
+}
+
+#aboutus3 {
+	margin-top: 5em;
+	margin-left: 4em;
+}
+
+#aboutus3 h4{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 650;
+	font-size: 25px;	
+	color:#74b5fc;
+	margin-bottom: 1em;
+}
+
+#aboutus3 p{
+	margin:0 0 30px 0;
+	color:#74b5fc;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 2em;
+	font-weight: 400;
+	font-size: 1.2em;
+}
+
+#aboutus3 img{
+	width: 540px;
+	height: 300px;
+}
+
+#aboutus4 {
+	margin-top: 1em;
+	margin-left: 4em;
+}
+
+#aboutus4 h4{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 650;
+	font-size: 25px;	
+	color:#74b5fc;
+	margin-bottom: 1em;
+}
+
+#aboutus4 p{
+	margin:0 0 30px 0;
+	color:#74b5fc;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 2em;
+	font-weight: 400;
+	font-size: 1.2em;
+}
+
+#aboutus4 img{
+	width: 540px;
+	height: 410px;
+}
+
+#services {
+	text-align: center;
+	background: #ecf5ff;
+	padding:55px 0 40px 0;
+	align-items: center;
+	width: 100%;
+}
+
+#services h3{
+	font-size: 36px;
+	font-family: "Montserrat", sans-serif;
+	color:#283d50;
+	font-weight: 500;
+	padding-bottom: 10px;
+}
+
+#services p{
+	font-size: 15px;
+	margin: auto;
+	width: 50%;
+	color:#556877;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#services .contentbox1 {
+	margin:auto;
+	border-radius: 10px;
+	background-color: white;
+	padding-left: 1em;
+	padding-top: 1em;
+	margin-left: 15em;
+	overflow: hidden;
+	position: relative;
+	height: 10em;
+	width: 30em;
+	margin-top: 4em;
+
+}
+
+#services .contentbox2 {
+	margin:auto;
+	border-radius: 10px;
+	background-color: white;
+	padding-left: 1em;
+	padding-top: 1em;
+	margin-left: 15em;
+	overflow: hidden;
+	position: relative;
+	height: 10em;
+	width: 30em;
+	margin-top: 4em;
+
+}
+
+#services .contentbox3 {
+	margin:auto;
+	border-radius: 10px;
+	background-color: white;
+	padding-left: 1em;
+	padding-top: 1em;
+	margin-left: 15em;
+	overflow: hidden;
+	position: relative;
+	height: 10em;
+	width: 30em;
+	margin-top: 4em;
+
+}
+
+#services .contentbox4 {
+	margin:auto;
+	border-radius: 10px;
+	background-color: white;
+	padding-left: 1em;
+	padding-top: 1em;
+	margin-left: 15em;
+	overflow: hidden;
+	position: relative;
+	height: 10em;
+	width: 30em;
+	margin-top: 4em;
+
+}
+
+#services .contentbox5 {
+	margin:auto;
+	border-radius: 10px;
+	background-color: white;
+	padding-left: 1em;
+	padding-top: 1em;
+	margin-left: 15em;
+	overflow: hidden;
+	position: relative;
+	height: 10em;
+	width: 30em;
+	margin-top: 4em;
+
+}
+
+#services .contentbox6 {
+	margin:auto;
+	border-radius: 10px;
+	background-color: white;
+	padding-left: 1em;
+	padding-top: 1em;
+	margin-left: 15em;
+	overflow: hidden;
+	position: relative;
+	height: 10em;
+	width: 30em;
+	margin-top: 4em;
+
+}
+
+#services .contentbox4,#services .contentbox5,#services .contentbox6{
+	margin-left: 2em;
+}
+
+#services i{
+	float: left;
+	position: relative;
+	margin-top: 2em;
+	font-size: 3em;
+	margin: auto;
+	margin-top:1em;
+	margin-right: 5px;
+	color:pink; 
+}
+
+#services .title{
+	float: left;
+	font-size: 18px;
+	margin-left: 5px;
+	font-weight: 500;
+	font-family: "Montserrat", sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+#services .description{
+	font-size: 14px;
+	margin-left: 40px;
+	margin-top: 1em;
+	width: 90%;
+	padding-top: 2em;
+	color:#74b5fc;
+	/*padding-left: 7em;*/
+	position: relative;
+}
+
+#whychooseus {
+	text-align: center;
+	background-color: #4680ff;
+	padding-top: 5em;
+}
+
+#whychooseus h3{
+	font-family: "Montserrat", sans-serif;
+	color:white;
+	font-size: 40px;
+	font-weight: 500;
+}
+
+#whychooseus p{
+	color:white;
+	font-family: 'Open Sans', sans-serif;
+	margin: auto;
+	width: 50%;
+}
+
+#whychooseus .contentbox1,#whychooseus .contentbox2,#whychooseus .contentbox3{
+	background: #00458f;
+	border-radius: 10px;
+	text-align: center;
+	padding:15px 0 15px 0;
+	margin: 70px 15px 0 15px;
+	height: 100%;
+}
+
+#whychooseus .contentbox1 i,#whychooseus .contentbox2 i,#whychooseus .contentbox3 i{
+	font-size: 50px;
+	color:#bfddfe;
+	padding-top: 10px;
+	padding-bottom: 0.2em;
+}
+
+
+
+#whychooseus .contentbox1 p,#whychooseus .contentbox2 p,#whychooseus .contentbox3 p{
+	font-size: 15px;
+	color:#d8eafe;
+	width: 75%;
+	margin-bottom: 15px;
+}
+
+#whychooseus .contentbox1 h5,#whychooseus .contentbox2 h5,#whychooseus .contentbox3 h5{
+	font-size: 25px;
+	color:white;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+#whychooseus .contentbox1 a,#whychooseus .contentbox2 a,#whychooseus .contentbox3 a{
+	color:white;
+	font-weight: 600;
+	font-size: 2rem;
+}
+
+#whychooseus .infobox1 .num {
+	font-family: "Montserrat", sans-serif;
+	font-size: 50px;
+	color:white;
+}
+
+#whychooseus .infobox1 p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color:#cce5ff;
+}
+
+#whychooseus .infobox1 {
+	margin-top: 6em;
+	margin-bottom: 60px;
+}
+
+#portfolio {
+	text-align: center;
+}
+
+#portfolio .buttons li{
+	display: inline-block;
+	margin: 15px;
+	color:#007bff;
+	border-radius: 50px;
+	background: #ecf5ff;
+	padding: 5px 20px 5px 20px;
+}
+
+#testimonial {
+	text-align: center;
+	position: relative;
+	margin-top: 50em;
+	background: #ecf5ff;
+	height: 30em;
+}
+
+#testimonial h3{
+	font-family: "Montserrat", sans-serif;	
+	font-size: 36px;
+	color:#283d50;
+	padding-top: 1em;
+	font-weight: 500;
+	position: relative;
+	font-weight: 600;
+}
+
+#testimonial .content img{
+	width: 10%;
+	border: 1px solid white;
+	border-radius: 50%;
+	float: left;
+	position: relative;
+	margin-left: 25em;
+	padding-top: 2px;
+}
+
+#testimonial .content {
+	position: relative;
+	padding-top: 1em;
+	margin-top: 2em;
+	margin-left: -6em;
+}
+
+#testimonial .content h3{
+	font-size: 20px;
+	color:#111;
+	margin: -20px 0px -22px 12px;
+	float: left;
+}
+
+#testimonial .content h4{
+	font-size: 14px;
+	float: left;
+	position: absolute;
+	margin-top: 2.5em;
+	margin-left: 35em;
+}
+
+#testimonial .content p{
+	position: absolute;
+	width: 52%;
+	margin-left: 34em;
+	margin-top: 5em;
+	font-style: italic;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#team {
+	text-align: center;
+	background: white;
+	padding-bottom: 6em;
+}
+
+#team h3{
+	font-size: 40px;
+	margin:40px 0 25px 0;
+}
+
+#team p{
+	width: 50%;
+	margin: auto;
+}
+
+#team img{
+	border-radius: 50%;
+	position: relative;
+	margin-top: 4em;
+}
+
+#clients {
+	text-align: center;
+	background: #ecf5ff;
+	padding-bottom: 6em;
+}
+
+#clients h3{
+	font-family: "Montserrat", sans-serif;
+	font-size: 40px;
+	font-weight: 550;
+	color:#283d50;
+	padding-top: 1em;
+}
+
+#clients p{
+	font-family: 'Open Sans', sans-serif;
+	color:#283d50;
+}
+
+#clients .logo {
+	border: 1px solid #d6eaff;
+	background: white;
+	padding: 40px;
+	margin-top: 0em;
+	height: 160px;
+	padding-right: 0px;
+	padding-left: 0px;
+	align-items: center;
+}
+
+#contactus {
+	text-align: center;
+	background: white;
+	padding-top: 2em;
+	padding-bottom: 5em;
+}
+
+#contactus h3{
+	font-family: "Montserrat", sans-serif;
+	font-size: 40px;
+}
+
+#contactus img{
+	padding-top: 4em;
+	padding-left: 2em;
+}
+
+#contactus .contactbox1, #contactus .contactbox2, #contactus .contactbox3{
+	padding-top: 4em;
+	width: 91%;
+}
+
+#contactus i{
+	padding:0px;
+	float: left;
+	font-size: 30px;
+	color:blue;
+}
+
+#contactus p{
+	font-family: 'Open Sans', sans-serif;
+	color:#283d50;
+}
+
+#contactus form #name,#email{
+	font-family: 'Open Sans', sans-serif; 
+	margin-top: 3em;
+	padding-right: 9em;
+	padding-top: 5px;
+	padding-left: 13px;
+	padding-bottom: 5px;
+	text-align: left;
+}
+
+#contactus form #subject {
+	font-family: 'Open Sans', sans-serif; 
+	padding-right: 32em;
+	padding-top: 5px;
+	padding-left: 19px;
+	padding-bottom: 5px;
+	text-align: left;
+	margin-top: 1em;
+	float: left;
+}
+
+#contactus form #message {
+	font-family: 'Open Sans', sans-serif; 
+	padding-right: 32em;
+	padding-top: 5px;
+	padding-left: 19px;
+	padding-bottom: 98px;
+	text-align: left;
+	margin-top: 1em;
+	float: left;
+}
+
+#contactus form .sendbutton {
+	margin-top: 1em;
+	border-radius: 2em;
+	border:2px solid #007bff;
+	background: #007bff;
+	width: 11em;
+	height: 2.5em;
+	text-align: center;
+	text-decoration: none;
+	color:white;
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif; 
+	font-weight: 400;
+	font-size: 15px;
+}
+
+#contactus form #email {
+	margin-left: -29px;
+	padding-right: 140px;
+}
+
+#newbiz {
+	background: #00428a;
+	color:white;
+	padding-bottom: 4em;
+}
+
+#newbiz h3{
+	font-family: "Montserrat", sans-serif;
+	font-size: 35px;
+	margin-bottom: 1em;
+	padding-top: 1em;
+}
+
+#newbiz p{
+	font-family: "Montserrat", sans-serif;
+	line-height: 2.1em;
+	width: 100%;
+}
+
+#newbiz h4{
+	padding-top: 3em;
+	font-size: 16px;
+}
+
+#newbiz .links {
+	padding-top: 1em;
+}
+
+#newbiz .address {
+	padding-top: 2.5em;
+	line-height: 30px;
+}
+
+#newbiz .links li{
+	list-style-type: none;
+	font-family: "Montserrat", sans-serif;
+	padding-top: 2em;
+}
+
+#newbiz .logolinks a{
+	color:white;
+	padding-top: 2em;
+	width: 40px;
+	height: 40px;
+	font-size: 3em;
+	margin-right: 5px;
+	text-align: center;
+}
+
+#newbiz .newsletter {
+	line-height: 2em;
+	padding-top: 2em;
+}
+
+#newbiz form {
+	display: inline-block;
+	font-size: 15px;
+}
+
+#newbiz form #email {
+	width: 60%;
+	padding:6px 8px;
+	border: 0px;
+}
+
+#newbiz form #submit {
+	background: #007bff;
+	width: 35%;
+	text-align: center;
+	color:white;
+	padding:5px;
+	border: 0px;
+	margin-left: -3px;
+}
